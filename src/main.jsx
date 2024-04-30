@@ -5,7 +5,7 @@ import './styles/app.scss';
 import { createContext } from 'react';
 
 // export const server = "http://localhost:4000/api/v1";
-export const server = "https://todoballer.onrender.com";
+export const server = "https://todoballer-backend.onrender.com/api/v1";
 export const Context = createContext({isAuthenticated: false});
 
 const AppWrapper = () => {
